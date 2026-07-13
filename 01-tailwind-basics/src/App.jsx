@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div
-      className={`${theme} min-h-screen text-slate-900 dark:bg-slate-900 dark:text-white`}
+      className={`${theme} min-h-screen text-slate-900 dark:bg-background dark:text-primary`}
     >
       {/* Navbar */}
       <div className="flex items-center justify-between p-4">
@@ -35,7 +35,7 @@ function App() {
 
       {/* Mobile Nav */}
       {open && (
-        <div className="flex flex-col items-center gap-2 text-slate-900 dark:bg-slate-900 dark:text-white p-4 sm:hidden">
+        <div className="flex flex-col items-center gap-2 text-slate-900 dark:text-white p-4 sm:hidden">
           <span>Home</span>
           <span>About</span>
           <span>Contact</span>
@@ -48,7 +48,7 @@ function App() {
         </div>
       )}
 
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 text-white dark:bg-slate-900 dark:text-white p-6 gap-6 text-center font-semibold text-2xl sm:text-sm">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 text-white dark:text-white p-6 gap-6 text-center font-semibold text-2xl sm:text-sm">
         <div className="bg-slate-500 p-4 rounded hover:bg-slate-600 hover:scale-105 transition-all duration-500">
           Feature One
         </div>

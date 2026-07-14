@@ -7,58 +7,38 @@
     <title>02-tailwind-intermediate</title>
   </head>
   <body class="bg-[#101044] text-white">
-    <header class="max-w-3xl mx-auto px-5 py-3">
+    <header class="max-w-5xl mx-auto px-5 py-3">
       <nav>
-        <ul
-          class="uppercase text-sm tracking-wider flex gap-x-4 gap-y-1 justify-center sm:justify-between flex-wrap"
-        >
+        <ul class="uppercase text-sm tracking-wider flex gap-x-4 gap-y-1 justify-center sm:justify-between flex-wrap">
           <li class="sm:me-auto">
-            <a
-              href=""
-              class="hover:bg-fuchsia-700 transition-colors p-1 rounded-sm"
-              >Home</a
-            >
+            <a href="" class="hover:bg-fuchsia-700 transition-colors p-1 rounded-sm">Home</a>
           </li>
           <li>
-            <a
-              href=""
-              class="hover:bg-fuchsia-700 transition-colors p-1 rounded-sm"
-              >Start Here</a
-            >
+            <a href="" class="hover:bg-fuchsia-700 transition-colors p-1 rounded-sm">Start Here</a>
           </li>
           <li>
-            <a
-              href=""
-              class="hover:bg-fuchsia-700 transition-colors p-1 rounded-sm"
-              >Projects</a
-            >
+            <a href="" class="hover:bg-fuchsia-700 transition-colors p-1 rounded-sm">Projects</a>
           </li>
           <li>
-            <a
-              href=""
-              class="hover:bg-fuchsia-700 transition-colors p-1 rounded-sm"
-              >About</a
-            >
+            <a href="" class="hover:bg-fuchsia-700 transition-colors p-1 rounded-sm">About</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <section class="space-y-5 text-center max-w-3xl mx-auto px-5 py-12">
-      <h1 class="text-4xl font-bold">Let's learn Tailwind!</h1>
+    <section class="text-center max-w-3xl lg:max-w-5xl mx-auto px-5 py-12 grid gap-5 lg:grid-cols-2 items-center">
+      <img src="/public/waterfall.jpg" alt="waterfall" width="2200" height="1331" class="rounded-xl lg:order-2" />
 
-      <p class="text-[1.2rem]">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam
-        voluptatem optio, voluptatum inventore hic asperiores iste soluta ipsum
-        temporibus! Adipisci ullam repellat iste maxime voluptatibus praesentium
-        culpa voluptate deserunt sapiente?
-      </p>
+      <div class="space-y-5">
+        <h1 class="text-4xl font-bold">Let's learn Tailwind!</h1>
 
-      <a
-        href=""
-        class="bg-fuchsia-700 px-7 py-3 rounded-full hover:bg-fuchsia-600 transition-colors"
-        >Click Here</a
-      >
+        <p class="text-[1.2rem]">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatem optio, voluptatum inventore hic asperiores iste soluta
+          ipsum temporibus! Adipisci ullam repellat iste maxime voluptatibus praesentium culpa voluptate deserunt sapiente?
+        </p>
+
+        <a href="" class="bg-fuchsia-700 px-7 py-3 rounded-full hover:bg-fuchsia-600 transition-colors">Click Here</a>
+      </div>
     </section>
 
     <script type="module" src="/src/main.ts"></script>

@@ -4,3 +4,7 @@
   --color-dark-blue: #101044;
   --font-arial: Arial, sans-serif;
 }
+
+@utility grid-cols-autofit {
+  grid-template-columns: repeat(auto-fit, minmax(13.75rem, 1fr));
+}
